@@ -3,7 +3,7 @@
             Network Generation Complete
 ========================================================
 Version of DFNGen: 2.2
-Time Stamp: Tue Dec 17 16:42:16 2024
+Time Stamp: Wed Dec 18 08:45:59 2024
 
 Family 1 target P32 = 0.0001, Final P32 = 0.000101394
 

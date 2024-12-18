@@ -138,7 +138,6 @@ with open("color_mesh.lgi", "w") as fp:
 
 subprocess.call('lagrit < color_mesh.lgi', shell = True)
 
-
 #DFN.correct_stor_file()
 #os.symlink(dfnFlow_file, 'fehmn.files')
 #DFN.fehm()
