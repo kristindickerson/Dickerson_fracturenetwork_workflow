@@ -1,0 +1,13 @@
+root: cond
+input: cond.dat
+outpu: cond.out
+grida: cond.fehm
+storo: cond.stor
+rsto: cond.fin
+error: cond.err
+check: cond.chk
+zone: cond_material.zone
+look: cond.wpi
+hist: cond.hist
+
+all

@@ -1,0 +1,90 @@
+OPTIONAL__command_defaults: {}
+OPTIONAL__flow_config:
+  REQUIRED__boundary_configs:
+  - OPTIONAL__material_zones:
+    - TYPE__int|str
+    OPTIONAL__outside_zones:
+    - TYPE__int|str
+    REQUIRED__boundary_model:
+      REQUIRED__kind: TYPE__str
+      REQUIRED__params: {}
+OPTIONAL__heat_flux_config:
+  REQUIRED__boundary_configs:
+  - OPTIONAL__material_zones:
+    - TYPE__int|str
+    OPTIONAL__outside_zones:
+    - TYPE__int|str
+    REQUIRED__boundary_model:
+      REQUIRED__kind: TYPE__str
+      REQUIRED__params: {}
+OPTIONAL__hydrostat_config:
+  OPTIONAL__sampling_model:
+    REQUIRED__kind: TYPE__str
+    REQUIRED__params: {}
+  REQUIRED__interpolation_model:
+    REQUIRED__kind: TYPE__str
+    REQUIRED__params: {}
+  REQUIRED__pressure_model:
+    REQUIRED__kind: TYPE__str
+    REQUIRED__params: {}
+REQUIRED__files_config:
+  OPTIONAL__flow: TYPE__Path
+  OPTIONAL__heat_flux: TYPE__Path
+  OPTIONAL__initial_conditions: TYPE__Path
+  REQUIRED__area: cond.area
+  REQUIRED__check: cond.chk
+  REQUIRED__conductivity: cond.cond
+  REQUIRED__error: cond.err
+  REQUIRED__files: fehmn.files
+  REQUIRED__final_conditions: cond.fin
+  REQUIRED__grid: cond.fehm
+  REQUIRED__history: cond.hist
+  REQUIRED__input: cond.dat
+  REQUIRED__material_zone: cond_material.zone
+  REQUIRED__output: cond.out
+  REQUIRED__outside_zone: cond_outside.zone
+  REQUIRED__permeability: cond.perm
+  REQUIRED__pore_pressure: cond.ppor
+  REQUIRED__rock_properties: cond.rock
+  REQUIRED__run_root: cond
+  REQUIRED__storage: cond.stor
+  REQUIRED__water_properties: cond.wpi
+REQUIRED__rock_properties_config:
+  REQUIRED__compressibility_configs:
+  - REQUIRED__property_model:
+      REQUIRED__kind: TYPE__str
+      REQUIRED__params: {}
+    REQUIRED__zones:
+    - TYPE__int|str
+  REQUIRED__conductivity_configs:
+  - REQUIRED__property_model:
+      REQUIRED__kind: TYPE__str
+      REQUIRED__params: {}
+    REQUIRED__zones:
+    - TYPE__int|str
+  REQUIRED__grain_density_configs:
+  - REQUIRED__property_model:
+      REQUIRED__kind: TYPE__str
+      REQUIRED__params: {}
+    REQUIRED__zones:
+    - TYPE__int|str
+  REQUIRED__permeability_configs:
+  - REQUIRED__property_model:
+      REQUIRED__kind: TYPE__str
+      REQUIRED__params: {}
+    REQUIRED__zones:
+    - TYPE__int|str
+  REQUIRED__porosity_configs:
+  - REQUIRED__property_model:
+      REQUIRED__kind: TYPE__str
+      REQUIRED__params: {}
+    REQUIRED__zones:
+    - TYPE__int|str
+  REQUIRED__specific_heat_configs:
+  - REQUIRED__property_model:
+      REQUIRED__kind: TYPE__str
+      REQUIRED__params: {}
+    REQUIRED__zones:
+    - TYPE__int|str
+  REQUIRED__zone_assignment_order:
+  - TYPE__int|str
