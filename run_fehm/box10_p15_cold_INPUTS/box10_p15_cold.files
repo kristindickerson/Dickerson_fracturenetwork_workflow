@@ -1,0 +1,13 @@
+root: box10_p15_cold
+input: box10_p15_cold.dat
+outpu: box10_p15_cold.out
+grida: box10_p15_cold.fehm
+storo: box10_p15_cold.stor
+rsto: box10_p15_cold.fin
+error: fehmn.err
+check: box10_p15_cold.chk
+zone: box10_p15_cold.zone
+look: box10_p15_cold.wpi
+hist: box10_p15_cold.hist
+
+all

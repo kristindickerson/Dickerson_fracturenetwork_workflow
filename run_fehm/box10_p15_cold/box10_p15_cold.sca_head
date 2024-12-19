@@ -1,0 +1,21 @@
+# FEHM V3.4.0lbUbuntu16 24-03-17   12/19/2024 
+#  AVS UNSTRUCTURED CELL DATA (UCD) FROM FEHM          
+# "10x10x10 box, init coup cold, p15, three layers, 2 big frac, 50 small" 
+# *****************************************************
+#  To prepare files for input to avs one must          
+#  concatinate  header/geometry/node_value files.      
+#  For example, if your FEHM input file was fe.dat,    
+#  headers are fe10001_sca_head fe10001_vec_head, ..., 
+#  mesh geometry will be in fe10001_geo,               
+#  field output will be in fe10001_sca_node,           
+#            fe10001_vec_node, fe10001_con_dual_node   
+#                                                      
+#  A UCD input file can be produced using              
+#   cat fe10001_sca_head fe10001_geo fe10001_sca_node >
+#       fe10001_sca_node.inp                           
+#                                                      
+#  The UNIX foreach command is useful for processing   
+#   multiple files. Also use the shell script fehm2avs 
+#   to perform automatic processing of all output.     
+# *****************************************************
+0000023210      127303           4           0           0
