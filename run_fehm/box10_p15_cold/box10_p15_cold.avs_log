@@ -1,0 +1,15 @@
+# FEHM V3.4.0lbUbuntu16 24-03-17   12/19/2024 
+#   LOG AVS OUTPUT
+# "10x10x10 box, init coup cold, p15, three layers, 2 big frac, 50 small"         
+# Root filename               Output Time (days)
+ box10_p15_cold.00001       0.00000000    
+ box10_p15_cold.00002      0.368557866E+10
+ box10_p15_cold.00003      0.733557866E+10
+ box10_p15_cold.00004      0.109855787E+11
+ box10_p15_cold.00005      0.146355787E+11
+ box10_p15_cold.00006      0.182855787E+11
+ box10_p15_cold.00007      0.219355787E+11
+ box10_p15_cold.00008      0.255855787E+11
+ box10_p15_cold.00009      0.292355787E+11
+ box10_p15_cold.00010      0.328855787E+11
+ box10_p15_cold.00011      0.365000000E+11
