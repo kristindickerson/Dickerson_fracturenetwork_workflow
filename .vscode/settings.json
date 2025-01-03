@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "${/home/krdicker/eu-kd/OW_fracturenetwork_models}/.venv_Eu/bin/python3.12"
+  }
+
+{
+    "python.terminal.activateEnvironment": true
+  }
